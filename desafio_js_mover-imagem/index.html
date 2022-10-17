@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main class="flex">
+        <div id="quadrado_base" class="flex"></div>
+        <div id="pikachu" class="flex"></div>
+    </main>
+    <footer class="flex">
+        <label for="vertical">Vertical</label>
+        <input type="range" name="vertical" id="vertical" min="0" max="500" oninput="funcVertical(this.value)">
+        <label for="horizontal">Horizontal</label>
+        <input type="range" name="horizontal" id="horizontal" min="0" max="500" oninput="funcHorizontal(this.value)">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

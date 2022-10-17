@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0; 
+    border: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+main{
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+main > div#quadrado_base{
+    height: 700px;
+    width: 700px;
+    border: solid 1px black;
+    position: relative;
+}
+
+main > div#pikachu{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(/desafios/desafio_js_mover-quadrado/pikachu.png);
+    position: absolute;
+}
+
+footer{
+    width: 700px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
