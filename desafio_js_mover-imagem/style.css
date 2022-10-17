@@ -26,7 +26,7 @@ main > div#pikachu{
     height: 200px;
     width: 200px;
     background-size: cover;
-    background-image: url(/desafios/desafio_js_mover-quadrado/pikachu.png);
+    background-image: url(/desafios/desafio_js_mover-imagem/pikachu.png);
     position: absolute;
 }
 
